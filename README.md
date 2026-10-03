@@ -1,16 +1,18 @@
 # Neon Rivals: Arena 3D
 
-A playable browser arena shooter rebuilt in 3D with a stylized neon sci-fi aesthetic.
+A playable browser arena shooter with a neon sci-fi aesthetic, improved enemy AI, multiple arena maps, and a start menu.
 
 ## Features
 
 - 3D arena combat using Three.js
 - Four weapon classes: Pistol, SMG, Shotgun, Railgun
 - Sound effects generated with Web Audio
-- Dash and area blast ability
+- Dash and energy blast ability
 - Enemy waves and boss rounds
-- Coins, pickups, combo scoring, shop upgrades
-- No build step required
+- Multiple maps: Gridline, Gates, Rift
+- Start menu and game loop flow
+- Better enemy movement with strafing and boss behavior
+- Coins, pickups, combo scoring, and shop upgrades
 
 ## Run locally
 
@@ -42,4 +44,4 @@ http://localhost:8000
 
 ## Notes
 
-This is intentionally lightweight and designed to run directly in a browser without installing dependencies.
+This version is intentionally lightweight and runs directly in a browser without needing npm install or a build tool.
